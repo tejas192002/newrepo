@@ -1,0 +1,98 @@
+.main-nav-tab {
+  height: 68px;
+  width: 100%;
+  background-color: #fbfbfb;
+  z-index: 1;
+  box-shadow: 0px -2px 5px 3px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: inherit;
+  padding: 0px 40px 0px 24px;
+}
+
+.logo {
+  height: 37px;
+  width: 161px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 32px;
+}
+
+.df {
+  display: flex;
+  align-items: center;
+}
+
+.nav-r2 {
+  gap: 16px;
+}
+
+.nav-r21 {
+  border-radius: 20px;
+  background: #1e6641;
+  height: 40px;
+  padding: 10px 12.886px 10px 10px;
+  justify-content: center;
+  gap: 5px;
+  width: 60px;
+}
+
+.nav-r21>p {
+  font-size: 14px;
+  font-weight: 400;
+  color: #fff;
+  line-height: 20px;
+}
+
+.user-img {
+  gap: 8px;
+}
+
+.nav-r21 img {
+  width: 20px;
+  height: 20px;
+}
+
+.user-img img {
+  height: 36px;
+  width: 36px;
+}
+
+.user-img>p {
+  color: #000;
+  font-family: Inter;
+  font-size: 15px;
+  font-weight: 600;
+  line-height: 22.5px;
+}
+
+.nav-r1>img {
+  background-color: rgba(150, 163, 182, 0.1);
+  width: 35px;
+  padding: 10.22px 6px 9.78px 11px;
+  border-radius: 3px 0 0 3px;
+}
+
+.nav-r1>input {
+  outline: none;
+  height: 38px;
+  padding: 5.5px 27px 5.5px 10px;
+  width: 180px;
+  border: none;
+  background-color: rgba(150, 163, 182, 0.1);
+  color: var(--themesbox-in-lynch, #717c99);
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border-radius: 0 3px 3px 0;
+}

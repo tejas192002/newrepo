@@ -1,0 +1,14 @@
+.spira-home {
+  display: flex;
+  border: 1px solid;
+  flex-direction: column;
+}
+
+.home-flex {
+  border: 1px solid red;
+}
+
+.max {
+  width: 100vw;
+  translate: 0 71px;
+}
